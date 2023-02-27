@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 7rem;
+    height: 120px;
+}
+
+.header-menu{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+.header-menu>li:hover{
+    color: #CA3E47;
+    cursor: pointer;
+}
